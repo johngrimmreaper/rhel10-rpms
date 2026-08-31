@@ -22,7 +22,7 @@ Install the repository signing key and repository descriptor, then refresh DNF m
 
 ```bash
 sudo rpm --import https://johngrimmreaper.github.io/rhel10-rpms/RPM-GPG-KEY
-sudo curl -fsSL https://johngrimmreaper.github.io/rhel10-rpms/repo/reaper-rhel10-stable-rhel-10-stable.repo -o /etc/yum.repos.d/reaper-rhel10-stable-rhel-10-stable.repo
+sudo curl -fsSL https://johngrimmreaper.github.io/rhel10-rpms/repo/reaper-rhel-10-stable.repo -o /etc/yum.repos.d/reaper-rhel-10-stable.repo
 sudo dnf makecache --refresh
 ```
 
