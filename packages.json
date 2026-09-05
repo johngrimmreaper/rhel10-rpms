@@ -1,0 +1,2046 @@
+{
+  "schema": 1,
+  "packages": [
+    {
+      "name": "appres",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.7-5.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X11 utility to print application resources",
+      "install_command": "sudo dnf install appres",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/appres/"
+    },
+    {
+      "name": "bitmap",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.1.1-8.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Bitmaps editor and converter utilities for the X Window System",
+      "install_command": "sudo dnf install bitmap",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/bitmap/"
+    },
+    {
+      "name": "cinnamon-themes",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1:2.3.8-1.el10"
+      ],
+      "architectures": [
+        "noarch"
+      ],
+      "summary": "Mint themes for GTK3",
+      "install_command": "sudo dnf install cinnamon-themes",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/cinnamon-themes/"
+    },
+    {
+      "name": "cvt",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "0.1.2-11.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Command line tool to calculate VESA CVT mode lines",
+      "install_command": "sudo dnf install cvt",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/cvt/"
+    },
+    {
+      "name": "dhcp-client",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "12:4.4.3-26.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Provides the ISC DHCP client daemon and dhclient-script",
+      "install_command": "sudo dnf install dhcp-client",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/dhcp-client/"
+    },
+    {
+      "name": "dhcp-common",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "12:4.4.3-26.el10"
+      ],
+      "architectures": [
+        "noarch"
+      ],
+      "summary": "Common files used by ISC dhcp client, server and relay agent",
+      "install_command": "sudo dnf install dhcp-common",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/dhcp-common/"
+    },
+    {
+      "name": "dhcp-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "12:4.4.3-26.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Development headers and libraries for interfacing to the DHCP server",
+      "install_command": "sudo dnf install dhcp-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/dhcp-devel/"
+    },
+    {
+      "name": "dhcp-devel-doc",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "12:4.4.3-26.el10"
+      ],
+      "architectures": [
+        "noarch"
+      ],
+      "summary": "Developer's Guide for ISC DHCP",
+      "install_command": "sudo dnf install dhcp-devel-doc",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/dhcp-devel-doc/"
+    },
+    {
+      "name": "dhcp-libs-static",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "12:4.4.3-26.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Shared libraries used by ISC dhcp client and server",
+      "install_command": "sudo dnf install dhcp-libs-static",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/dhcp-libs-static/"
+    },
+    {
+      "name": "dhcp-relay",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "12:4.4.3-26.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Provides the ISC DHCP relay agent",
+      "install_command": "sudo dnf install dhcp-relay",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/dhcp-relay/"
+    },
+    {
+      "name": "dhcp-server",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "12:4.4.3-26.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Provides the ISC DHCP server",
+      "install_command": "sudo dnf install dhcp-server",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/dhcp-server/"
+    },
+    {
+      "name": "dunst",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.13.2-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Lightweight and customizable notification-daemon",
+      "install_command": "sudo dnf install dunst",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/dunst/"
+    },
+    {
+      "name": "editres",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.9-5.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X11 utility to view and edit application resources",
+      "install_command": "sudo dnf install editres",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/editres/"
+    },
+    {
+      "name": "fonttosfnt",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.2.4-4.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Tool to wrap bdf or pcf bitmap fonts in an sfnt wrapper",
+      "install_command": "sudo dnf install fonttosfnt",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/fonttosfnt/"
+    },
+    {
+      "name": "fvwm",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "2.7.0-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Highly configurable multiple virtual desktop window manager",
+      "install_command": "sudo dnf install fvwm",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/fvwm/"
+    },
+    {
+      "name": "gearboy",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "3.8.12-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Game Boy / Game Boy Color emulator",
+      "install_command": "sudo dnf install gearboy",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/gearboy/"
+    },
+    {
+      "name": "gearcoleco",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.6.9-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "ColecoVision emulator",
+      "install_command": "sudo dnf install gearcoleco",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/gearcoleco/"
+    },
+    {
+      "name": "geargrafx",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.7.17-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "PC Engine / TurboGrafx-16 / SuperGrafx / CD-ROM² emulator",
+      "install_command": "sudo dnf install geargrafx",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/geargrafx/"
+    },
+    {
+      "name": "gearlynx",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.2.22-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Atari Lynx emulator",
+      "install_command": "sudo dnf install gearlynx",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/gearlynx/"
+    },
+    {
+      "name": "gearsystem",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "3.9.15-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Sega Master System / Game Gear / SG-1000 emulator",
+      "install_command": "sudo dnf install gearsystem",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/gearsystem/"
+    },
+    {
+      "name": "gnome-backgrounds",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "50.0-1.el10"
+      ],
+      "architectures": [
+        "noarch"
+      ],
+      "summary": "Desktop backgrounds packaged with the GNOME desktop",
+      "install_command": "sudo dnf install gnome-backgrounds",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/gnome-backgrounds/"
+    },
+    {
+      "name": "gtk-layer-shell",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "0.10.0-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Library to create components for Wayland using the Layer Shell",
+      "install_command": "sudo dnf install gtk-layer-shell",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/gtk-layer-shell/"
+    },
+    {
+      "name": "gtk-layer-shell-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "0.10.0-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Development files for gtk-layer-shell",
+      "install_command": "sudo dnf install gtk-layer-shell-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/gtk-layer-shell-devel/"
+    },
+    {
+      "name": "hexchat",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "2.16.2-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "A popular and easy to use graphical IRC (chat) client",
+      "install_command": "sudo dnf install hexchat",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/hexchat/"
+    },
+    {
+      "name": "hexchat-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "2.16.2-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Development files for hexchat",
+      "install_command": "sudo dnf install hexchat-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/hexchat-devel/"
+    },
+    {
+      "name": "iceauth",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.10-4.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Display the authorization information used in connecting with ICE",
+      "install_command": "sudo dnf install iceauth",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/iceauth/"
+    },
+    {
+      "name": "libfm",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.4.1-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "GIO-based library for file manager-like programs",
+      "install_command": "sudo dnf install libfm",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libfm/"
+    },
+    {
+      "name": "libfm-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.4.1-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Development files for libfm",
+      "install_command": "sudo dnf install libfm-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libfm-devel/"
+    },
+    {
+      "name": "libfm-gtk",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.4.1-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "GTK3 file-manager widgets for libfm",
+      "install_command": "sudo dnf install libfm-gtk",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libfm-gtk/"
+    },
+    {
+      "name": "libfm-gtk-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.4.1-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Development files for libfm-gtk",
+      "install_command": "sudo dnf install libfm-gtk-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libfm-gtk-devel/"
+    },
+    {
+      "name": "libfm-gtk-utils",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.4.1-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "GTK3 utility programs for libfm",
+      "install_command": "sudo dnf install libfm-gtk-utils",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libfm-gtk-utils/"
+    },
+    {
+      "name": "libFS",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.9-9.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X.Org X11 libFS runtime library",
+      "install_command": "sudo dnf install libFS",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libFS/"
+    },
+    {
+      "name": "libFS-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.9-9.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X.Org X11 libFS development package",
+      "install_command": "sudo dnf install libFS-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libFS-devel/"
+    },
+    {
+      "name": "libglade2",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "2.6.4-37.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "The libglade library for loading user interfaces",
+      "install_command": "sudo dnf install libglade2",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libglade2/"
+    },
+    {
+      "name": "libglade2-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "2.6.4-37.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "The files needed for libglade application development",
+      "install_command": "sudo dnf install libglade2-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libglade2-devel/"
+    },
+    {
+      "name": "libgnomekbd",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "3.28.1-9.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "A keyboard configuration library",
+      "install_command": "sudo dnf install libgnomekbd",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libgnomekbd/"
+    },
+    {
+      "name": "libgnomekbd-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "3.28.1-9.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Development files for libgnomekbd",
+      "install_command": "sudo dnf install libgnomekbd-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libgnomekbd-devel/"
+    },
+    {
+      "name": "libxcvt",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "0.1.2-11.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "VESA CVT standard timing modelines generator",
+      "install_command": "sudo dnf install libxcvt",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libxcvt/"
+    },
+    {
+      "name": "libxcvt-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "0.1.2-11.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Development package",
+      "install_command": "sudo dnf install libxcvt-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libxcvt-devel/"
+    },
+    {
+      "name": "libxdo",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1:3.20211022.1-10.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Keyboard input simulation library",
+      "install_command": "sudo dnf install libxdo",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libxdo/"
+    },
+    {
+      "name": "libxdo-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1:3.20211022.1-10.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Development files for libxdo",
+      "install_command": "sudo dnf install libxdo-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libxdo-devel/"
+    },
+    {
+      "name": "libXfont",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.5.4-21.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X.Org X11 libXfont runtime library",
+      "install_command": "sudo dnf install libXfont",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libXfont/"
+    },
+    {
+      "name": "libXfont-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.5.4-21.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X.Org X11 libXfont development package",
+      "install_command": "sudo dnf install libXfont-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libXfont-devel/"
+    },
+    {
+      "name": "libxkbcommon",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.13.1-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X.Org X11 XKB parsing library",
+      "install_command": "sudo dnf install libxkbcommon",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libxkbcommon/"
+    },
+    {
+      "name": "libxkbcommon-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.13.1-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X.Org X11 XKB parsing development package",
+      "install_command": "sudo dnf install libxkbcommon-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libxkbcommon-devel/"
+    },
+    {
+      "name": "libxkbcommon-utils",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.13.1-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X.Org X11 XKB parsing utilities",
+      "install_command": "sudo dnf install libxkbcommon-utils",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libxkbcommon-utils/"
+    },
+    {
+      "name": "libxkbcommon-x11",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.13.1-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X.Org X11 XKB keymap creation library",
+      "install_command": "sudo dnf install libxkbcommon-x11",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libxkbcommon-x11/"
+    },
+    {
+      "name": "libxkbcommon-x11-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.13.1-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X.Org X11 XKB keymap creation library",
+      "install_command": "sudo dnf install libxkbcommon-x11-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libxkbcommon-x11-devel/"
+    },
+    {
+      "name": "libxkbcommon-x11-utils",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.13.1-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X.Org X11 XKB parsing utilities",
+      "install_command": "sudo dnf install libxkbcommon-x11-utils",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libxkbcommon-x11-utils/"
+    },
+    {
+      "name": "libxklavier",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "5.4-30.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "High-level API for X Keyboard Extension",
+      "install_command": "sudo dnf install libxklavier",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libxklavier/"
+    },
+    {
+      "name": "libxklavier-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "5.4-30.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Development files for libxklavier",
+      "install_command": "sudo dnf install libxklavier-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libxklavier-devel/"
+    },
+    {
+      "name": "libXpresent",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.0-28.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "A Xlib-compatible API for the Present extension",
+      "install_command": "sudo dnf install libXpresent",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libXpresent/"
+    },
+    {
+      "name": "libXpresent-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.0-28.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Development files for libXpresent",
+      "install_command": "sudo dnf install libXpresent-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libXpresent-devel/"
+    },
+    {
+      "name": "libXvMC",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.13-9.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X.Org X11 libXvMC runtime library",
+      "install_command": "sudo dnf install libXvMC",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libXvMC/"
+    },
+    {
+      "name": "libXvMC-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.13-9.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X.Org X11 libXvMC development package",
+      "install_command": "sudo dnf install libXvMC-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libXvMC-devel/"
+    },
+    {
+      "name": "libXxf86misc",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.4-20.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X.Org X11 libXxf86misc runtime library",
+      "install_command": "sudo dnf install libXxf86misc",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/libXxf86misc/"
+    },
+    {
+      "name": "lightdm",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.33.1-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "A cross-desktop Display Manager",
+      "install_command": "sudo dnf install lightdm",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/lightdm/"
+    },
+    {
+      "name": "lightdm-autologin-greeter",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0-24.el10"
+      ],
+      "architectures": [
+        "noarch"
+      ],
+      "summary": "Autologin greeter using LightDM",
+      "install_command": "sudo dnf install lightdm-autologin-greeter",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/lightdm-autologin-greeter/"
+    },
+    {
+      "name": "lightdm-gobject",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.33.1-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "LightDM GObject client library",
+      "install_command": "sudo dnf install lightdm-gobject",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/lightdm-gobject/"
+    },
+    {
+      "name": "lightdm-gobject-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.33.1-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Development files for lightdm-gobject",
+      "install_command": "sudo dnf install lightdm-gobject-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/lightdm-gobject-devel/"
+    },
+    {
+      "name": "lightdm-gtk",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "2.0.8-16.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "LightDM GTK Greeter",
+      "install_command": "sudo dnf install lightdm-gtk",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/lightdm-gtk/"
+    },
+    {
+      "name": "lightdm-gtk-greeter-settings",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.2.2-32.el10"
+      ],
+      "architectures": [
+        "noarch"
+      ],
+      "summary": "Settings editor for LightDM GTK+ Greeter",
+      "install_command": "sudo dnf install lightdm-gtk-greeter-settings",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/lightdm-gtk-greeter-settings/"
+    },
+    {
+      "name": "lightdm-qt5",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.33.1-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "LightDM Qt5 client library",
+      "install_command": "sudo dnf install lightdm-qt5",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/lightdm-qt5/"
+    },
+    {
+      "name": "lightdm-qt5-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.33.1-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Development files for lightdm-qt5",
+      "install_command": "sudo dnf install lightdm-qt5-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/lightdm-qt5-devel/"
+    },
+    {
+      "name": "lightdm-qt6",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.33.1-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "LightDM Qt6 client library",
+      "install_command": "sudo dnf install lightdm-qt6",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/lightdm-qt6/"
+    },
+    {
+      "name": "lightdm-qt6-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.33.1-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Development files for lightdm-qt6",
+      "install_command": "sudo dnf install lightdm-qt6-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/lightdm-qt6-devel/"
+    },
+    {
+      "name": "lightdm-settings",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "2.1.1-2.el10"
+      ],
+      "architectures": [
+        "noarch"
+      ],
+      "summary": "Configuration tool for the LightDM display manager",
+      "install_command": "sudo dnf install lightdm-settings",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/lightdm-settings/"
+    },
+    {
+      "name": "lxdm",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "0.5.3^20220831git2d4ba970-5.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Lightweight X11 Display Manager",
+      "install_command": "sudo dnf install lxdm",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/lxdm/"
+    },
+    {
+      "name": "menu-cache",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.1.1-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Caching mechanism for freedesktop.org compliant menus",
+      "install_command": "sudo dnf install menu-cache",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/menu-cache/"
+    },
+    {
+      "name": "menu-cache-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.1.1-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Development files for menu-cache",
+      "install_command": "sudo dnf install menu-cache-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/menu-cache-devel/"
+    },
+    {
+      "name": "mint-themes",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1:2.3.8-1.el10"
+      ],
+      "architectures": [
+        "noarch"
+      ],
+      "summary": "Mint themes",
+      "install_command": "sudo dnf install mint-themes",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/mint-themes/"
+    },
+    {
+      "name": "mint-themes-gtk3",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1:2.3.8-1.el10"
+      ],
+      "architectures": [
+        "noarch"
+      ],
+      "summary": "Mint themes for GTK3",
+      "install_command": "sudo dnf install mint-themes-gtk3",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/mint-themes-gtk3/"
+    },
+    {
+      "name": "mint-themes-gtk4",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1:2.3.8-1.el10"
+      ],
+      "architectures": [
+        "noarch"
+      ],
+      "summary": "Mint themes for GTK4",
+      "install_command": "sudo dnf install mint-themes-gtk4",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/mint-themes-gtk4/"
+    },
+    {
+      "name": "mint-x-icons",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.7.5-2.el10"
+      ],
+      "architectures": [
+        "noarch"
+      ],
+      "summary": "Icon theme for Linux Mint",
+      "install_command": "sudo dnf install mint-x-icons",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/mint-x-icons/"
+    },
+    {
+      "name": "mint-y-icons",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.9.1-2.el10"
+      ],
+      "architectures": [
+        "noarch"
+      ],
+      "summary": "The Mint-Y icon theme",
+      "install_command": "sudo dnf install mint-y-icons",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/mint-y-icons/"
+    },
+    {
+      "name": "mint-y-theme",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1:2.3.8-1.el10"
+      ],
+      "architectures": [
+        "noarch"
+      ],
+      "summary": "The Mint-Y theme",
+      "install_command": "sudo dnf install mint-y-theme",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/mint-y-theme/"
+    },
+    {
+      "name": "oclock",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.6-4.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "A simple analog clock",
+      "install_command": "sudo dnf install oclock",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/oclock/"
+    },
+    {
+      "name": "pcmanfm",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.4.0^20251022git09087446-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Extremely fast and lightweight file manager",
+      "install_command": "sudo dnf install pcmanfm",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/pcmanfm/"
+    },
+    {
+      "name": "pcmanfm-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.4.0^20251022git09087446-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Development files for pcmanfm",
+      "install_command": "sudo dnf install pcmanfm-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/pcmanfm-devel/"
+    },
+    {
+      "name": "python3-xapp",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "3.0.2-2.el10"
+      ],
+      "architectures": [
+        "noarch"
+      ],
+      "summary": "Python bindings for xapps",
+      "install_command": "sudo dnf install python3-xapp",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/python3-xapp/"
+    },
+    {
+      "name": "python3-xapps-overrides",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "3.2.2-3.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Python3.12 files for xapps",
+      "install_command": "sudo dnf install python3-xapps-overrides",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/python3-xapps-overrides/"
+    },
+    {
+      "name": "slick-greeter",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "2.2.6-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "A slick-looking LightDM greeter",
+      "install_command": "sudo dnf install slick-greeter",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/slick-greeter/"
+    },
+    {
+      "name": "slick-greeter-cinnamon",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "2.2.6-2.el10"
+      ],
+      "architectures": [
+        "noarch"
+      ],
+      "summary": "Slick-greeter customisation for the CINNAMON desktop",
+      "install_command": "sudo dnf install slick-greeter-cinnamon",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/slick-greeter-cinnamon/"
+    },
+    {
+      "name": "slick-greeter-mate",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "2.2.6-2.el10"
+      ],
+      "architectures": [
+        "noarch"
+      ],
+      "summary": "Slick-greeter customisation for the MATE desktop",
+      "install_command": "sudo dnf install slick-greeter-mate",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/slick-greeter-mate/"
+    },
+    {
+      "name": "stalonetray",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "0.9.0-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "A stand alone notification area",
+      "install_command": "sudo dnf install stalonetray",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/stalonetray/"
+    },
+    {
+      "name": "x11perf",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.6.1-13.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X11 server performance test program",
+      "install_command": "sudo dnf install x11perf",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/x11perf/"
+    },
+    {
+      "name": "xapps",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "3.2.2-3.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Common files for XApp desktop apps",
+      "install_command": "sudo dnf install xapps",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xapps/"
+    },
+    {
+      "name": "xapps-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "3.2.2-3.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Development files for xapps",
+      "install_command": "sudo dnf install xapps-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xapps-devel/"
+    },
+    {
+      "name": "xapps-mate",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "3.2.2-3.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Mate status applet with HIDPI support",
+      "install_command": "sudo dnf install xapps-mate",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xapps-mate/"
+    },
+    {
+      "name": "xbacklight",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.2.4-4.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Adjust backlight brightness using RandR",
+      "install_command": "sudo dnf install xbacklight",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xbacklight/"
+    },
+    {
+      "name": "xcalc",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.1.3-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Scientific Calculator X11 Client",
+      "install_command": "sudo dnf install xcalc",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xcalc/"
+    },
+    {
+      "name": "xclipboard",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.1.5-4.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Utility to collect and display text selections",
+      "install_command": "sudo dnf install xclipboard",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xclipboard/"
+    },
+    {
+      "name": "xclock",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.1.1-11.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "The classic X Window System clock utility",
+      "install_command": "sudo dnf install xclock",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xclock/"
+    },
+    {
+      "name": "xcursorgen",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.9-3.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Prepare X11 cursor sets for use with libXcursor",
+      "install_command": "sudo dnf install xcursorgen",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xcursorgen/"
+    },
+    {
+      "name": "xdotool",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1:3.20211022.1-10.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Fake keyboard/mouse input",
+      "install_command": "sudo dnf install xdotool",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xdotool/"
+    },
+    {
+      "name": "xdriinfo",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.7-6.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X application to query configuration information of DRI drivers",
+      "install_command": "sudo dnf install xdriinfo",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xdriinfo/"
+    },
+    {
+      "name": "xedit",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.2.5-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Simple text editor for X",
+      "install_command": "sudo dnf install xedit",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xedit/"
+    },
+    {
+      "name": "xev",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.2.6-12.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X Event utility",
+      "install_command": "sudo dnf install xev",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xev/"
+    },
+    {
+      "name": "xeyes",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.3.0-7.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "A follow the mouse X demo",
+      "install_command": "sudo dnf install xeyes",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xeyes/"
+    },
+    {
+      "name": "xfce4-dev-tools",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "4.20.0-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Xfce developer tools",
+      "install_command": "sudo dnf install xfce4-dev-tools",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xfce4-dev-tools/"
+    },
+    {
+      "name": "xgamma",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.8-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X utility to query and alter the gamma correction of a monitor",
+      "install_command": "sudo dnf install xgamma",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xgamma/"
+    },
+    {
+      "name": "xinput",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.6.4-6.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Utility to query X Input devices",
+      "install_command": "sudo dnf install xinput",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xinput/"
+    },
+    {
+      "name": "xkill",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.6-9.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Utility to force-close an X client's connection",
+      "install_command": "sudo dnf install xkill",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xkill/"
+    },
+    {
+      "name": "xload",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.2.0-5.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Tool to display system load average",
+      "install_command": "sudo dnf install xload",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xload/"
+    },
+    {
+      "name": "xlockmore",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "5.88-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Screen lock and screen saver",
+      "install_command": "sudo dnf install xlockmore",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xlockmore/"
+    },
+    {
+      "name": "xlockmore-gtk",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "5.88-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "GTK based frontend for xlockmore",
+      "install_command": "sudo dnf install xlockmore-gtk",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xlockmore-gtk/"
+    },
+    {
+      "name": "xlockmore-motif",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "5.88-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Motif based frontend for xlockmore",
+      "install_command": "sudo dnf install xlockmore-motif",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xlockmore-motif/"
+    },
+    {
+      "name": "xlogo",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.7-4.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Display the X11 logo",
+      "install_command": "sudo dnf install xlogo",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xlogo/"
+    },
+    {
+      "name": "xlsatoms",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.1.4-8.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X11 atom list utility",
+      "install_command": "sudo dnf install xlsatoms",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xlsatoms/"
+    },
+    {
+      "name": "xlsclients",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.1.5-4.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X client list utility",
+      "install_command": "sudo dnf install xlsclients",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xlsclients/"
+    },
+    {
+      "name": "xlsfonts",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.9-3.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X font list utility",
+      "install_command": "sudo dnf install xlsfonts",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xlsfonts/"
+    },
+    {
+      "name": "xmag",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.8-5.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Display a magnified snapshot of an X11 screen",
+      "install_command": "sudo dnf install xmag",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xmag/"
+    },
+    {
+      "name": "xorg-x11-drivers",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "2022-10.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X.Org X11 driver installation package",
+      "install_command": "sudo dnf install xorg-x11-drivers",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-drivers/"
+    },
+    {
+      "name": "xorg-x11-drv-amdgpu",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "25.0.0-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "AMD GPU video driver",
+      "install_command": "sudo dnf install xorg-x11-drv-amdgpu",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-drv-amdgpu/"
+    },
+    {
+      "name": "xorg-x11-drv-ati",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "22.0.0-6.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Xorg X11 ati video driver",
+      "install_command": "sudo dnf install xorg-x11-drv-ati",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-drv-ati/"
+    },
+    {
+      "name": "xorg-x11-drv-dummy",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "0.4.1-8.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Xorg X11 dummy video driver",
+      "install_command": "sudo dnf install xorg-x11-drv-dummy",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-drv-dummy/"
+    },
+    {
+      "name": "xorg-x11-drv-evdev",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "2.11.0-4.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Xorg X11 evdev input driver",
+      "install_command": "sudo dnf install xorg-x11-drv-evdev",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-drv-evdev/"
+    },
+    {
+      "name": "xorg-x11-drv-evdev-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "2.11.0-4.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Xorg X11 evdev input driver development package.",
+      "install_command": "sudo dnf install xorg-x11-drv-evdev-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-drv-evdev-devel/"
+    },
+    {
+      "name": "xorg-x11-drv-intel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "2.99.917^20240506gitce811e7-65.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Xorg X11 Intel video driver",
+      "install_command": "sudo dnf install xorg-x11-drv-intel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-drv-intel/"
+    },
+    {
+      "name": "xorg-x11-drv-libinput",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.5.0-4.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Xorg X11 libinput input driver",
+      "install_command": "sudo dnf install xorg-x11-drv-libinput",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-drv-libinput/"
+    },
+    {
+      "name": "xorg-x11-drv-libinput-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.5.0-4.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Xorg X11 libinput input driver development package.",
+      "install_command": "sudo dnf install xorg-x11-drv-libinput-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-drv-libinput-devel/"
+    },
+    {
+      "name": "xorg-x11-drv-nouveau",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1:1.0.17-13.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Xorg X11 nouveau video driver for NVIDIA graphics chipsets",
+      "install_command": "sudo dnf install xorg-x11-drv-nouveau",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-drv-nouveau/"
+    },
+    {
+      "name": "xorg-x11-drv-openchrome",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "0.6.604^20230328git857d892-4.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Xorg X11 openchrome video driver",
+      "install_command": "sudo dnf install xorg-x11-drv-openchrome",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-drv-openchrome/"
+    },
+    {
+      "name": "xorg-x11-drv-qxl",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "0.1.6-9.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Xorg X11 qxl video driver",
+      "install_command": "sudo dnf install xorg-x11-drv-qxl",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-drv-qxl/"
+    },
+    {
+      "name": "xorg-x11-drv-synaptics-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.10.0-4.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Xorg X11 synaptics input driver",
+      "install_command": "sudo dnf install xorg-x11-drv-synaptics-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-drv-synaptics-devel/"
+    },
+    {
+      "name": "xorg-x11-drv-synaptics-legacy",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.10.0-4.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Xorg X11 synaptics input driver",
+      "install_command": "sudo dnf install xorg-x11-drv-synaptics-legacy",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-drv-synaptics-legacy/"
+    },
+    {
+      "name": "xorg-x11-drv-vmware",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "13.4.0-12.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Xorg X11 vmware video driver",
+      "install_command": "sudo dnf install xorg-x11-drv-vmware",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-drv-vmware/"
+    },
+    {
+      "name": "xorg-x11-drv-wacom",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.2.4-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Xorg X11 wacom input driver",
+      "install_command": "sudo dnf install xorg-x11-drv-wacom",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-drv-wacom/"
+    },
+    {
+      "name": "xorg-x11-drv-wacom-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.2.4-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Xorg X11 wacom input driver development package",
+      "install_command": "sudo dnf install xorg-x11-drv-wacom-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-drv-wacom-devel/"
+    },
+    {
+      "name": "xorg-x11-drv-wacom-serial-support",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.2.4-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Files for enabling the wacom_w8001 kernel driver",
+      "install_command": "sudo dnf install xorg-x11-drv-wacom-serial-support",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-drv-wacom-serial-support/"
+    },
+    {
+      "name": "xorg-x11-server-common",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "21.1.24-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Xorg server common files",
+      "install_command": "sudo dnf install xorg-x11-server-common",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-server-common/"
+    },
+    {
+      "name": "xorg-x11-server-devel",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "21.1.24-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "SDK for X server driver module development",
+      "install_command": "sudo dnf install xorg-x11-server-devel",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-server-devel/"
+    },
+    {
+      "name": "xorg-x11-server-source",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "21.1.24-1.el10"
+      ],
+      "architectures": [
+        "noarch"
+      ],
+      "summary": "Xserver source code required to build VNC server (Xvnc)",
+      "install_command": "sudo dnf install xorg-x11-server-source",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-server-source/"
+    },
+    {
+      "name": "xorg-x11-server-Xephyr",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "21.1.24-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "A nested server",
+      "install_command": "sudo dnf install xorg-x11-server-Xephyr",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-server-Xephyr/"
+    },
+    {
+      "name": "xorg-x11-server-Xnest",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "21.1.24-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "A nested server",
+      "install_command": "sudo dnf install xorg-x11-server-Xnest",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-server-Xnest/"
+    },
+    {
+      "name": "xorg-x11-server-Xorg",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "21.1.24-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Xorg X server",
+      "install_command": "sudo dnf install xorg-x11-server-Xorg",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-server-Xorg/"
+    },
+    {
+      "name": "xorg-x11-server-Xspice",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "0.1.6-9.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "XSpice is an X server that can be accessed by a Spice client",
+      "install_command": "sudo dnf install xorg-x11-server-Xspice",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-server-Xspice/"
+    },
+    {
+      "name": "xorg-x11-server-Xvfb",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "21.1.24-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "A X Windows System virtual framebuffer X server",
+      "install_command": "sudo dnf install xorg-x11-server-Xvfb",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-server-Xvfb/"
+    },
+    {
+      "name": "xorg-x11-xdm",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1:1.1.17-3.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X.Org X11 xdm - X Display Manager",
+      "install_command": "sudo dnf install xorg-x11-xdm",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xorg-x11-xdm/"
+    },
+    {
+      "name": "xrandr",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.5.3-4.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Commandline utility to change output properties",
+      "install_command": "sudo dnf install xrandr",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xrandr/"
+    },
+    {
+      "name": "xrefresh",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.1.0-4.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Refresh all or part of an X screen",
+      "install_command": "sudo dnf install xrefresh",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xrefresh/"
+    },
+    {
+      "name": "xscope",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.4.5-2.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X Window Protocol Viewer",
+      "install_command": "sudo dnf install xscope",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xscope/"
+    },
+    {
+      "name": "xscreensaver",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1:6.15-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X screen saver and locker",
+      "install_command": "sudo dnf install xscreensaver",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xscreensaver/"
+    },
+    {
+      "name": "xscreensaver-base",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1:6.15-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "A minimal installation of xscreensaver",
+      "install_command": "sudo dnf install xscreensaver-base",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xscreensaver-base/"
+    },
+    {
+      "name": "xscreensaver-extras",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1:6.15-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "An enhanced set of screensavers",
+      "install_command": "sudo dnf install xscreensaver-extras",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xscreensaver-extras/"
+    },
+    {
+      "name": "xscreensaver-extras-gss",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1:6.15-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Desktop files of extras for other screensaver",
+      "install_command": "sudo dnf install xscreensaver-extras-gss",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xscreensaver-extras-gss/"
+    },
+    {
+      "name": "xscreensaver-gl-base",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1:6.15-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "A base package for screensavers that require OpenGL",
+      "install_command": "sudo dnf install xscreensaver-gl-base",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xscreensaver-gl-base/"
+    },
+    {
+      "name": "xscreensaver-gl-extras",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1:6.15-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "An enhanced set of screensavers that require OpenGL",
+      "install_command": "sudo dnf install xscreensaver-gl-extras",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xscreensaver-gl-extras/"
+    },
+    {
+      "name": "xscreensaver-gl-extras-gss",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1:6.15-1.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Desktop files of gl-extras for other screensaver",
+      "install_command": "sudo dnf install xscreensaver-gl-extras-gss",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xscreensaver-gl-extras-gss/"
+    },
+    {
+      "name": "xset",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.2.5-9.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "User preference utility for X",
+      "install_command": "sudo dnf install xset",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xset/"
+    },
+    {
+      "name": "xsetroot",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.1.3-4.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Root window parameter setting utility for X",
+      "install_command": "sudo dnf install xsetroot",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xsetroot/"
+    },
+    {
+      "name": "xstdcmap",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.5-6.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Utility to define standard colormap properties",
+      "install_command": "sudo dnf install xstdcmap",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xstdcmap/"
+    },
+    {
+      "name": "xvidtune",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.4-4.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Video mode tuner for Xorg",
+      "install_command": "sudo dnf install xvidtune",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xvidtune/"
+    },
+    {
+      "name": "xvinfo",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.1.5-4.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X video extension query utility",
+      "install_command": "sudo dnf install xvinfo",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xvinfo/"
+    },
+    {
+      "name": "xwd",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.9-5.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Dump an X window to file",
+      "install_command": "sudo dnf install xwd",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xwd/"
+    },
+    {
+      "name": "xwininfo",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.1.6-4.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "X window info utility",
+      "install_command": "sudo dnf install xwininfo",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xwininfo/"
+    },
+    {
+      "name": "xwud",
+      "distribution": "RHEL 10 / Enterprise Linux 10 (EL10)",
+      "version_release": [
+        "1.0.7-4.el10"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "summary": "Tool to display an X window image",
+      "install_command": "sudo dnf install xwud",
+      "page_url": "https://johngrimmreaper.github.io/rhel10-rpms/packages/rhel/10/xwud/"
+    }
+  ]
+}

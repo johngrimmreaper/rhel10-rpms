@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Packages in /stable/rhel/10/x86_64/ - Reaper RHEL 10 RPM Repository</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { max-width: 1024px; margin: 2rem auto; padding: 0 1rem; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; line-height: 1.45; }
+    a { text-decoration: none; } a:hover { text-decoration: underline; }
+    h1, h2, h3 { font-family: system-ui, sans-serif; }
+    .small { font-size: 0.88rem; opacity: 0.8; }
+    .repo-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+    .repo-card { border: 1px solid; border-radius: 6px; padding: 1rem; overflow-wrap: anywhere; min-width: 0; }
+    .repo-summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: .75rem; margin: 1rem 0; }
+    .stat { border: 1px solid; border-radius: 6px; padding: .75rem; }
+    .stat strong { display: block; font-family: system-ui, sans-serif; font-size: 1.2rem; }
+    .stat span { display: block; margin-top: .15rem; font-size: .82rem; opacity: .78; }
+    dl { display: grid; grid-template-columns: max-content 1fr; gap: .25rem .75rem; } dt { font-weight: bold; } dd { margin: 0; }
+    pre { overflow-x: auto; padding: .75rem; border: 1px solid; border-radius: 4px; }
+    .command-block { position: relative; margin: .75rem 0; }
+    .command-block pre { margin: 0; padding-right: 3.5rem; }
+    .copy-button { position: absolute; top: .5rem; right: .5rem; z-index: 1; display: inline-flex; align-items: center; justify-content: center; width: 2rem; height: 2rem; padding: 0; border: 1px solid; border-radius: 6px; background: transparent; color: inherit; cursor: pointer; opacity: .78; }
+    .copy-button:hover, .copy-button:focus-visible { opacity: 1; }
+    .copy-button:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+    .copy-glyph { width: 1.05rem; height: 1.05rem; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+    .copy-glyph-check { display: none; }
+    .copy-button.copied .copy-glyph-copy { display: none; }
+    .copy-button.copied .copy-glyph-check { display: block; }
+    .copy-button.copied { opacity: 1; }
+    .copy-button.copy-failed { opacity: 1; outline: 2px solid currentColor; outline-offset: 1px; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+    .table-scroll { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; } th, td { padding: .35rem .5rem; border-bottom: 1px solid; text-align: left; vertical-align: top; }
+    .package-table { min-width: 720px; }
+    .global-package-table { min-width: 900px; }
+    .storage-meter { width: 100%; height: 1.2rem; }
+    .size { text-align: right; white-space: nowrap; } footer { margin-top: 2rem; font-size: .85rem; opacity: .75; }
+    @media (max-width: 640px) { dl { grid-template-columns: 1fr; } dd { margin-bottom: .35rem; } }
+
+    .hero { border: 1px solid; border-radius: 10px; padding: 1.5rem; margin: 0 0 1.5rem; }
+    .hero-kicker { margin: 0 0 .35rem; font-family: system-ui, sans-serif; font-size: .8rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; opacity: .72; }
+    .hero h1 { margin: 0; font-size: clamp(2rem, 6vw, 3.2rem); line-height: 1.05; }
+    .hero-description { max-width: 72ch; font-size: 1.05rem; }
+    .hero-link { margin: 1rem 0 0; font-family: system-ui, sans-serif; font-size: 1.15rem; font-weight: 700; overflow-wrap: anywhere; }
+    .quick-start { margin: 1.5rem 0 2rem; }
+    .sort-button { appearance: none; border: 0; background: transparent; color: inherit; font: inherit; font-weight: inherit; padding: 0; cursor: pointer; display: inline-flex; align-items: center; gap: .35rem; }
+    .sort-button:hover, .sort-button:focus-visible { text-decoration: underline; }
+    th.size .sort-button { width: 100%; justify-content: flex-end; }
+    .sort-indicator { display: inline-block; min-width: 1em; font-size: .75em; }
+    .package-table { min-width: 0; table-layout: fixed; }
+    .package-table th, .package-table td { min-width: 0; overflow-wrap: anywhere; }
+    .package-table code { white-space: normal; overflow-wrap: anywhere; }
+    .package-table .size { white-space: normal; }
+    .package-table th:nth-child(1) { width: 22%; }
+    .package-table th:nth-child(2) { width: 13%; }
+    .package-table th:nth-child(3) { width: 15%; }
+    .package-table th:nth-child(4) { width: 8%; }
+    .package-table th:nth-child(5) { width: 13%; }
+    .package-table th:nth-child(6) { width: 9%; }
+    .package-table th:nth-child(7) { width: 20%; }
+      </style>
+  <meta name="robots" content="noindex,follow">
+</head>
+<body>
+
+    <h1>Package inventory for /stable/rhel/10/x86_64/</h1>
+    <p class="small"><a href="../../../../">/</a> <a href="../../../">stable/</a> <a href="../../">rhel/</a> <a href="../">10/</a> x86_64/</p>
+    <p><a href="./">← Back to repository index</a></p>
+    
+    <div class="repo-summary">
+      <div class="stat"><strong>157</strong><span>RPM files</span></div>
+      <div class="stat"><strong>157</strong><span>package names</span></div>
+      <div class="stat"><strong>231.0 MiB</strong><span>RPM payload</span></div>
+      <div class="stat"><strong>231.7 MiB</strong><span>repository footprint</span></div>
+    </div>
+    <p class="small"><strong>Categories:</strong> Applications &amp; tools: 106 · Libraries: 17 · Development: 28 · Data &amp; assets: 5 · Documentation: 1<br>
+    <strong>Architectures:</strong> noarch: 17 · x86_64: 140</p>
+    
+    <h2>All RPMs</h2>
+    
+        <div class="table-scroll">
+          <table class="package-table">
+            <thead><tr><th>RPM file</th><th>Package</th><th>Version-release</th><th>Arch</th><th>Category</th><th class="size">Size</th><th>Summary</th></tr></thead>
+            <tbody><tr><td><a href="Packages/appres-1.0.7-5.el10.x86_64.rpm"><code>appres-1.0.7-5.el10.x86_64.rpm</code></a></td><td>appres</td><td><code>1.0.7-5.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">16.6 KiB</td><td>X11 utility to print application resources</td></tr>
+<tr><td><a href="Packages/bitmap-1.1.1-8.el10.x86_64.rpm"><code>bitmap-1.1.1-8.el10.x86_64.rpm</code></a></td><td>bitmap</td><td><code>1.1.1-8.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">83.7 KiB</td><td>Bitmaps editor and converter utilities for the X Window System</td></tr>
+<tr><td><a href="Packages/cvt-0.1.2-11.el10.x86_64.rpm"><code>cvt-0.1.2-11.el10.x86_64.rpm</code></a></td><td>cvt</td><td><code>0.1.2-11.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">14.6 KiB</td><td>Command line tool to calculate VESA CVT mode lines</td></tr>
+<tr><td><a href="Packages/dhcp-client-4.4.3-26.el10.x86_64.rpm"><code>dhcp-client-4.4.3-26.el10.x86_64.rpm</code></a></td><td>dhcp-client</td><td><code>12:4.4.3-26.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">834.6 KiB</td><td>Provides the ISC DHCP client daemon and dhclient-script</td></tr>
+<tr><td><a href="Packages/dhcp-relay-4.4.3-26.el10.x86_64.rpm"><code>dhcp-relay-4.4.3-26.el10.x86_64.rpm</code></a></td><td>dhcp-relay</td><td><code>12:4.4.3-26.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">420.6 KiB</td><td>Provides the ISC DHCP relay agent</td></tr>
+<tr><td><a href="Packages/dhcp-server-4.4.3-26.el10.x86_64.rpm"><code>dhcp-server-4.4.3-26.el10.x86_64.rpm</code></a></td><td>dhcp-server</td><td><code>12:4.4.3-26.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">1.3 MiB</td><td>Provides the ISC DHCP server</td></tr>
+<tr><td><a href="Packages/dunst-1.13.2-1.el10.x86_64.rpm"><code>dunst-1.13.2-1.el10.x86_64.rpm</code></a></td><td>dunst</td><td><code>1.13.2-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">152.9 KiB</td><td>Lightweight and customizable notification-daemon</td></tr>
+<tr><td><a href="Packages/editres-1.0.9-5.el10.x86_64.rpm"><code>editres-1.0.9-5.el10.x86_64.rpm</code></a></td><td>editres</td><td><code>1.0.9-5.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">48.1 KiB</td><td>X11 utility to view and edit application resources</td></tr>
+<tr><td><a href="Packages/fonttosfnt-1.2.4-4.el10.x86_64.rpm"><code>fonttosfnt-1.2.4-4.el10.x86_64.rpm</code></a></td><td>fonttosfnt</td><td><code>1.2.4-4.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">29.7 KiB</td><td>Tool to wrap bdf or pcf bitmap fonts in an sfnt wrapper</td></tr>
+<tr><td><a href="Packages/fvwm-2.7.0-1.el10.x86_64.rpm"><code>fvwm-2.7.0-1.el10.x86_64.rpm</code></a></td><td>fvwm</td><td><code>2.7.0-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">1.3 MiB</td><td>Highly configurable multiple virtual desktop window manager</td></tr>
+<tr><td><a href="Packages/gearboy-3.8.12-1.el10.x86_64.rpm"><code>gearboy-3.8.12-1.el10.x86_64.rpm</code></a></td><td>gearboy</td><td><code>3.8.12-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">1.4 MiB</td><td>Game Boy / Game Boy Color emulator</td></tr>
+<tr><td><a href="Packages/gearcoleco-1.6.9-1.el10.x86_64.rpm"><code>gearcoleco-1.6.9-1.el10.x86_64.rpm</code></a></td><td>gearcoleco</td><td><code>1.6.9-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">1.3 MiB</td><td>ColecoVision emulator</td></tr>
+<tr><td><a href="Packages/geargrafx-1.7.17-1.el10.x86_64.rpm"><code>geargrafx-1.7.17-1.el10.x86_64.rpm</code></a></td><td>geargrafx</td><td><code>1.7.17-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">1.8 MiB</td><td>PC Engine / TurboGrafx-16 / SuperGrafx / CD-ROM² emulator</td></tr>
+<tr><td><a href="Packages/gearlynx-1.2.22-1.el10.x86_64.rpm"><code>gearlynx-1.2.22-1.el10.x86_64.rpm</code></a></td><td>gearlynx</td><td><code>1.2.22-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">1.6 MiB</td><td>Atari Lynx emulator</td></tr>
+<tr><td><a href="Packages/gearsystem-3.9.15-1.el10.x86_64.rpm"><code>gearsystem-3.9.15-1.el10.x86_64.rpm</code></a></td><td>gearsystem</td><td><code>3.9.15-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">1.4 MiB</td><td>Sega Master System / Game Gear / SG-1000 emulator</td></tr>
+<tr><td><a href="Packages/gnome-backgrounds-50.0-1.el10.noarch.rpm"><code>gnome-backgrounds-50.0-1.el10.noarch.rpm</code></a></td><td>gnome-backgrounds</td><td><code>50.0-1.el10</code></td><td>noarch</td><td>Applications &amp; tools</td><td class="size">37.2 MiB</td><td>Desktop backgrounds packaged with the GNOME desktop</td></tr>
+<tr><td><a href="Packages/gtk-layer-shell-0.10.0-1.el10.x86_64.rpm"><code>gtk-layer-shell-0.10.0-1.el10.x86_64.rpm</code></a></td><td>gtk-layer-shell</td><td><code>0.10.0-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">72.3 KiB</td><td>Library to create components for Wayland using the Layer Shell</td></tr>
+<tr><td><a href="Packages/hexchat-2.16.2-1.el10.x86_64.rpm"><code>hexchat-2.16.2-1.el10.x86_64.rpm</code></a></td><td>hexchat</td><td><code>2.16.2-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">1.2 MiB</td><td>A popular and easy to use graphical IRC (chat) client</td></tr>
+<tr><td><a href="Packages/iceauth-1.0.10-4.el10.x86_64.rpm"><code>iceauth-1.0.10-4.el10.x86_64.rpm</code></a></td><td>iceauth</td><td><code>1.0.10-4.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">24.8 KiB</td><td>Display the authorization information used in connecting with ICE</td></tr>
+<tr><td><a href="Packages/lightdm-1.33.1-2.el10.x86_64.rpm"><code>lightdm-1.33.1-2.el10.x86_64.rpm</code></a></td><td>lightdm</td><td><code>1.33.1-2.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">221.0 KiB</td><td>A cross-desktop Display Manager</td></tr>
+<tr><td><a href="Packages/lightdm-autologin-greeter-1.0-24.el10.noarch.rpm"><code>lightdm-autologin-greeter-1.0-24.el10.noarch.rpm</code></a></td><td>lightdm-autologin-greeter</td><td><code>1.0-24.el10</code></td><td>noarch</td><td>Applications &amp; tools</td><td class="size">12.6 KiB</td><td>Autologin greeter using LightDM</td></tr>
+<tr><td><a href="Packages/lightdm-gobject-1.33.1-2.el10.x86_64.rpm"><code>lightdm-gobject-1.33.1-2.el10.x86_64.rpm</code></a></td><td>lightdm-gobject</td><td><code>1.33.1-2.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">62.4 KiB</td><td>LightDM GObject client library</td></tr>
+<tr><td><a href="Packages/lightdm-gtk-2.0.8-16.el10.x86_64.rpm"><code>lightdm-gtk-2.0.8-16.el10.x86_64.rpm</code></a></td><td>lightdm-gtk</td><td><code>2.0.8-16.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">126.1 KiB</td><td>LightDM GTK Greeter</td></tr>
+<tr><td><a href="Packages/lightdm-gtk-greeter-settings-1.2.2-32.el10.noarch.rpm"><code>lightdm-gtk-greeter-settings-1.2.2-32.el10.noarch.rpm</code></a></td><td>lightdm-gtk-greeter-settings</td><td><code>1.2.2-32.el10</code></td><td>noarch</td><td>Applications &amp; tools</td><td class="size">208.9 KiB</td><td>Settings editor for LightDM GTK+ Greeter</td></tr>
+<tr><td><a href="Packages/lightdm-qt5-1.33.1-2.el10.x86_64.rpm"><code>lightdm-qt5-1.33.1-2.el10.x86_64.rpm</code></a></td><td>lightdm-qt5</td><td><code>1.33.1-2.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">44.7 KiB</td><td>LightDM Qt5 client library</td></tr>
+<tr><td><a href="Packages/lightdm-qt6-1.33.1-2.el10.x86_64.rpm"><code>lightdm-qt6-1.33.1-2.el10.x86_64.rpm</code></a></td><td>lightdm-qt6</td><td><code>1.33.1-2.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">56.9 KiB</td><td>LightDM Qt6 client library</td></tr>
+<tr><td><a href="Packages/lightdm-settings-2.1.1-2.el10.noarch.rpm"><code>lightdm-settings-2.1.1-2.el10.noarch.rpm</code></a></td><td>lightdm-settings</td><td><code>2.1.1-2.el10</code></td><td>noarch</td><td>Applications &amp; tools</td><td class="size">159.1 KiB</td><td>Configuration tool for the LightDM display manager</td></tr>
+<tr><td><a href="Packages/lxdm-0.5.3%5E20220831git2d4ba970-5.el10.x86_64.rpm"><code>lxdm-0.5.3^20220831git2d4ba970-5.el10.x86_64.rpm</code></a></td><td>lxdm</td><td><code>0.5.3^20220831git2d4ba970-5.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">158.2 KiB</td><td>Lightweight X11 Display Manager</td></tr>
+<tr><td><a href="Packages/menu-cache-1.1.1-1.el10.x86_64.rpm"><code>menu-cache-1.1.1-1.el10.x86_64.rpm</code></a></td><td>menu-cache</td><td><code>1.1.1-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">65.3 KiB</td><td>Caching mechanism for freedesktop.org compliant menus</td></tr>
+<tr><td><a href="Packages/mint-themes-gtk3-2.3.8-1.el10.noarch.rpm"><code>mint-themes-gtk3-2.3.8-1.el10.noarch.rpm</code></a></td><td>mint-themes-gtk3</td><td><code>1:2.3.8-1.el10</code></td><td>noarch</td><td>Applications &amp; tools</td><td class="size">831.1 KiB</td><td>Mint themes for GTK3</td></tr>
+<tr><td><a href="Packages/mint-themes-gtk4-2.3.8-1.el10.noarch.rpm"><code>mint-themes-gtk4-2.3.8-1.el10.noarch.rpm</code></a></td><td>mint-themes-gtk4</td><td><code>1:2.3.8-1.el10</code></td><td>noarch</td><td>Applications &amp; tools</td><td class="size">551.5 KiB</td><td>Mint themes for GTK4</td></tr>
+<tr><td><a href="Packages/mint-x-icons-1.7.5-2.el10.noarch.rpm"><code>mint-x-icons-1.7.5-2.el10.noarch.rpm</code></a></td><td>mint-x-icons</td><td><code>1.7.5-2.el10</code></td><td>noarch</td><td>Applications &amp; tools</td><td class="size">13.6 MiB</td><td>Icon theme for Linux Mint</td></tr>
+<tr><td><a href="Packages/mint-y-icons-1.9.1-2.el10.noarch.rpm"><code>mint-y-icons-1.9.1-2.el10.noarch.rpm</code></a></td><td>mint-y-icons</td><td><code>1.9.1-2.el10</code></td><td>noarch</td><td>Applications &amp; tools</td><td class="size">72.2 MiB</td><td>The Mint-Y icon theme</td></tr>
+<tr><td><a href="Packages/oclock-1.0.6-4.el10.x86_64.rpm"><code>oclock-1.0.6-4.el10.x86_64.rpm</code></a></td><td>oclock</td><td><code>1.0.6-4.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">20.9 KiB</td><td>A simple analog clock</td></tr>
+<tr><td><a href="Packages/pcmanfm-1.4.0%5E20251022git09087446-1.el10.x86_64.rpm"><code>pcmanfm-1.4.0^20251022git09087446-1.el10.x86_64.rpm</code></a></td><td>pcmanfm</td><td><code>1.4.0^20251022git09087446-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">331.2 KiB</td><td>Extremely fast and lightweight file manager</td></tr>
+<tr><td><a href="Packages/python3-xapp-3.0.2-2.el10.noarch.rpm"><code>python3-xapp-3.0.2-2.el10.noarch.rpm</code></a></td><td>python3-xapp</td><td><code>3.0.2-2.el10</code></td><td>noarch</td><td>Applications &amp; tools</td><td class="size">71.0 KiB</td><td>Python bindings for xapps</td></tr>
+<tr><td><a href="Packages/python3-xapps-overrides-3.2.2-3.el10.x86_64.rpm"><code>python3-xapps-overrides-3.2.2-3.el10.x86_64.rpm</code></a></td><td>python3-xapps-overrides</td><td><code>3.2.2-3.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">10.3 KiB</td><td>Python3.12 files for xapps</td></tr>
+<tr><td><a href="Packages/slick-greeter-2.2.6-2.el10.x86_64.rpm"><code>slick-greeter-2.2.6-2.el10.x86_64.rpm</code></a></td><td>slick-greeter</td><td><code>2.2.6-2.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">377.9 KiB</td><td>A slick-looking LightDM greeter</td></tr>
+<tr><td><a href="Packages/slick-greeter-cinnamon-2.2.6-2.el10.noarch.rpm"><code>slick-greeter-cinnamon-2.2.6-2.el10.noarch.rpm</code></a></td><td>slick-greeter-cinnamon</td><td><code>2.2.6-2.el10</code></td><td>noarch</td><td>Applications &amp; tools</td><td class="size">8.8 KiB</td><td>Slick-greeter customisation for the CINNAMON desktop</td></tr>
+<tr><td><a href="Packages/slick-greeter-mate-2.2.6-2.el10.noarch.rpm"><code>slick-greeter-mate-2.2.6-2.el10.noarch.rpm</code></a></td><td>slick-greeter-mate</td><td><code>2.2.6-2.el10</code></td><td>noarch</td><td>Applications &amp; tools</td><td class="size">8.6 KiB</td><td>Slick-greeter customisation for the MATE desktop</td></tr>
+<tr><td><a href="Packages/stalonetray-0.9.0-2.el10.x86_64.rpm"><code>stalonetray-0.9.0-2.el10.x86_64.rpm</code></a></td><td>stalonetray</td><td><code>0.9.0-2.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">84.3 KiB</td><td>A stand alone notification area</td></tr>
+<tr><td><a href="Packages/x11perf-1.6.1-13.el10.x86_64.rpm"><code>x11perf-1.6.1-13.el10.x86_64.rpm</code></a></td><td>x11perf</td><td><code>1.6.1-13.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">71.3 KiB</td><td>X11 server performance test program</td></tr>
+<tr><td><a href="Packages/xapps-3.2.2-3.el10.x86_64.rpm"><code>xapps-3.2.2-3.el10.x86_64.rpm</code></a></td><td>xapps</td><td><code>3.2.2-3.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">5.3 MiB</td><td>Common files for XApp desktop apps</td></tr>
+<tr><td><a href="Packages/xapps-mate-3.2.2-3.el10.x86_64.rpm"><code>xapps-mate-3.2.2-3.el10.x86_64.rpm</code></a></td><td>xapps-mate</td><td><code>3.2.2-3.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">15.6 KiB</td><td>Mate status applet with HIDPI support</td></tr>
+<tr><td><a href="Packages/xbacklight-1.2.4-4.el10.x86_64.rpm"><code>xbacklight-1.2.4-4.el10.x86_64.rpm</code></a></td><td>xbacklight</td><td><code>1.2.4-4.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">23.5 KiB</td><td>Adjust backlight brightness using RandR</td></tr>
+<tr><td><a href="Packages/xcalc-1.1.3-1.el10.x86_64.rpm"><code>xcalc-1.1.3-1.el10.x86_64.rpm</code></a></td><td>xcalc</td><td><code>1.1.3-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">49.1 KiB</td><td>Scientific Calculator X11 Client</td></tr>
+<tr><td><a href="Packages/xclipboard-1.1.5-4.el10.x86_64.rpm"><code>xclipboard-1.1.5-4.el10.x86_64.rpm</code></a></td><td>xclipboard</td><td><code>1.1.5-4.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">27.9 KiB</td><td>Utility to collect and display text selections</td></tr>
+<tr><td><a href="Packages/xclock-1.1.1-11.el10.x86_64.rpm"><code>xclock-1.1.1-11.el10.x86_64.rpm</code></a></td><td>xclock</td><td><code>1.1.1-11.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">31.6 KiB</td><td>The classic X Window System clock utility</td></tr>
+<tr><td><a href="Packages/xcursorgen-1.0.9-3.el10.x86_64.rpm"><code>xcursorgen-1.0.9-3.el10.x86_64.rpm</code></a></td><td>xcursorgen</td><td><code>1.0.9-3.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">17.8 KiB</td><td>Prepare X11 cursor sets for use with libXcursor</td></tr>
+<tr><td><a href="Packages/xdotool-3.20211022.1-10.el10.x86_64.rpm"><code>xdotool-3.20211022.1-10.el10.x86_64.rpm</code></a></td><td>xdotool</td><td><code>1:3.20211022.1-10.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">52.9 KiB</td><td>Fake keyboard/mouse input</td></tr>
+<tr><td><a href="Packages/xdriinfo-1.0.7-6.el10.x86_64.rpm"><code>xdriinfo-1.0.7-6.el10.x86_64.rpm</code></a></td><td>xdriinfo</td><td><code>1.0.7-6.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">21.1 KiB</td><td>X application to query configuration information of DRI drivers</td></tr>
+<tr><td><a href="Packages/xedit-1.2.5-2.el10.x86_64.rpm"><code>xedit-1.2.5-2.el10.x86_64.rpm</code></a></td><td>xedit</td><td><code>1.2.5-2.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">384.0 KiB</td><td>Simple text editor for X</td></tr>
+<tr><td><a href="Packages/xev-1.2.6-12.el10.x86_64.rpm"><code>xev-1.2.6-12.el10.x86_64.rpm</code></a></td><td>xev</td><td><code>1.2.6-12.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">24.1 KiB</td><td>X Event utility</td></tr>
+<tr><td><a href="Packages/xeyes-1.3.0-7.el10.x86_64.rpm"><code>xeyes-1.3.0-7.el10.x86_64.rpm</code></a></td><td>xeyes</td><td><code>1.3.0-7.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">22.6 KiB</td><td>A follow the mouse X demo</td></tr>
+<tr><td><a href="Packages/xfce4-dev-tools-4.20.0-1.el10.x86_64.rpm"><code>xfce4-dev-tools-4.20.0-1.el10.x86_64.rpm</code></a></td><td>xfce4-dev-tools</td><td><code>4.20.0-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">75.3 KiB</td><td>Xfce developer tools</td></tr>
+<tr><td><a href="Packages/xgamma-1.0.8-2.el10.x86_64.rpm"><code>xgamma-1.0.8-2.el10.x86_64.rpm</code></a></td><td>xgamma</td><td><code>1.0.8-2.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">24.7 KiB</td><td>X utility to query and alter the gamma correction of a monitor</td></tr>
+<tr><td><a href="Packages/xinput-1.6.4-6.el10.x86_64.rpm"><code>xinput-1.6.4-6.el10.x86_64.rpm</code></a></td><td>xinput</td><td><code>1.6.4-6.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">36.5 KiB</td><td>Utility to query X Input devices</td></tr>
+<tr><td><a href="Packages/xkill-1.0.6-9.el10.x86_64.rpm"><code>xkill-1.0.6-9.el10.x86_64.rpm</code></a></td><td>xkill</td><td><code>1.0.6-9.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">17.3 KiB</td><td>Utility to force-close an X client&#x27;s connection</td></tr>
+<tr><td><a href="Packages/xload-1.2.0-5.el10.x86_64.rpm"><code>xload-1.2.0-5.el10.x86_64.rpm</code></a></td><td>xload</td><td><code>1.2.0-5.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">19.2 KiB</td><td>Tool to display system load average</td></tr>
+<tr><td><a href="Packages/xlockmore-5.88-2.el10.x86_64.rpm"><code>xlockmore-5.88-2.el10.x86_64.rpm</code></a></td><td>xlockmore</td><td><code>5.88-2.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">1.4 MiB</td><td>Screen lock and screen saver</td></tr>
+<tr><td><a href="Packages/xlockmore-gtk-5.88-2.el10.x86_64.rpm"><code>xlockmore-gtk-5.88-2.el10.x86_64.rpm</code></a></td><td>xlockmore-gtk</td><td><code>5.88-2.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">39.8 KiB</td><td>GTK based frontend for xlockmore</td></tr>
+<tr><td><a href="Packages/xlockmore-motif-5.88-2.el10.x86_64.rpm"><code>xlockmore-motif-5.88-2.el10.x86_64.rpm</code></a></td><td>xlockmore-motif</td><td><code>5.88-2.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">19.6 KiB</td><td>Motif based frontend for xlockmore</td></tr>
+<tr><td><a href="Packages/xlogo-1.0.7-4.el10.x86_64.rpm"><code>xlogo-1.0.7-4.el10.x86_64.rpm</code></a></td><td>xlogo</td><td><code>1.0.7-4.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">32.9 KiB</td><td>Display the X11 logo</td></tr>
+<tr><td><a href="Packages/xlsatoms-1.1.4-8.el10.x86_64.rpm"><code>xlsatoms-1.1.4-8.el10.x86_64.rpm</code></a></td><td>xlsatoms</td><td><code>1.1.4-8.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">14.9 KiB</td><td>X11 atom list utility</td></tr>
+<tr><td><a href="Packages/xlsclients-1.1.5-4.el10.x86_64.rpm"><code>xlsclients-1.1.5-4.el10.x86_64.rpm</code></a></td><td>xlsclients</td><td><code>1.1.5-4.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">18.4 KiB</td><td>X client list utility</td></tr>
+<tr><td><a href="Packages/xlsfonts-1.0.9-3.el10.x86_64.rpm"><code>xlsfonts-1.0.9-3.el10.x86_64.rpm</code></a></td><td>xlsfonts</td><td><code>1.0.9-3.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">20.6 KiB</td><td>X font list utility</td></tr>
+<tr><td><a href="Packages/xmag-1.0.8-5.el10.x86_64.rpm"><code>xmag-1.0.8-5.el10.x86_64.rpm</code></a></td><td>xmag</td><td><code>1.0.8-5.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">40.9 KiB</td><td>Display a magnified snapshot of an X11 screen</td></tr>
+<tr><td><a href="Packages/xorg-x11-drivers-2022-10.el10.x86_64.rpm"><code>xorg-x11-drivers-2022-10.el10.x86_64.rpm</code></a></td><td>xorg-x11-drivers</td><td><code>2022-10.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">7.3 KiB</td><td>X.Org X11 driver installation package</td></tr>
+<tr><td><a href="Packages/xorg-x11-drv-amdgpu-25.0.0-2.el10.x86_64.rpm"><code>xorg-x11-drv-amdgpu-25.0.0-2.el10.x86_64.rpm</code></a></td><td>xorg-x11-drv-amdgpu</td><td><code>25.0.0-2.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">76.2 KiB</td><td>AMD GPU video driver</td></tr>
+<tr><td><a href="Packages/xorg-x11-drv-ati-22.0.0-6.el10.x86_64.rpm"><code>xorg-x11-drv-ati-22.0.0-6.el10.x86_64.rpm</code></a></td><td>xorg-x11-drv-ati</td><td><code>22.0.0-6.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">168.3 KiB</td><td>Xorg X11 ati video driver</td></tr>
+<tr><td><a href="Packages/xorg-x11-drv-dummy-0.4.1-8.el10.x86_64.rpm"><code>xorg-x11-drv-dummy-0.4.1-8.el10.x86_64.rpm</code></a></td><td>xorg-x11-drv-dummy</td><td><code>0.4.1-8.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">17.7 KiB</td><td>Xorg X11 dummy video driver</td></tr>
+<tr><td><a href="Packages/xorg-x11-drv-evdev-2.11.0-4.el10.x86_64.rpm"><code>xorg-x11-drv-evdev-2.11.0-4.el10.x86_64.rpm</code></a></td><td>xorg-x11-drv-evdev</td><td><code>2.11.0-4.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">40.6 KiB</td><td>Xorg X11 evdev input driver</td></tr>
+<tr><td><a href="Packages/xorg-x11-drv-intel-2.99.917%5E20240506gitce811e7-65.el10.x86_64.rpm"><code>xorg-x11-drv-intel-2.99.917^20240506gitce811e7-65.el10.x86_64.rpm</code></a></td><td>xorg-x11-drv-intel</td><td><code>2.99.917^20240506gitce811e7-65.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">897.7 KiB</td><td>Xorg X11 Intel video driver</td></tr>
+<tr><td><a href="Packages/xorg-x11-drv-libinput-1.5.0-4.el10.x86_64.rpm"><code>xorg-x11-drv-libinput-1.5.0-4.el10.x86_64.rpm</code></a></td><td>xorg-x11-drv-libinput</td><td><code>1.5.0-4.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">50.6 KiB</td><td>Xorg X11 libinput input driver</td></tr>
+<tr><td><a href="Packages/xorg-x11-drv-nouveau-1.0.17-13.el10.x86_64.rpm"><code>xorg-x11-drv-nouveau-1.0.17-13.el10.x86_64.rpm</code></a></td><td>xorg-x11-drv-nouveau</td><td><code>1:1.0.17-13.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">96.5 KiB</td><td>Xorg X11 nouveau video driver for NVIDIA graphics chipsets</td></tr>
+<tr><td><a href="Packages/xorg-x11-drv-openchrome-0.6.604%5E20230328git857d892-4.el10.x86_64.rpm"><code>xorg-x11-drv-openchrome-0.6.604^20230328git857d892-4.el10.x86_64.rpm</code></a></td><td>xorg-x11-drv-openchrome</td><td><code>0.6.604^20230328git857d892-4.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">105.1 KiB</td><td>Xorg X11 openchrome video driver</td></tr>
+<tr><td><a href="Packages/xorg-x11-drv-qxl-0.1.6-9.el10.x86_64.rpm"><code>xorg-x11-drv-qxl-0.1.6-9.el10.x86_64.rpm</code></a></td><td>xorg-x11-drv-qxl</td><td><code>0.1.6-9.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">83.9 KiB</td><td>Xorg X11 qxl video driver</td></tr>
+<tr><td><a href="Packages/xorg-x11-drv-synaptics-legacy-1.10.0-4.el10.x86_64.rpm"><code>xorg-x11-drv-synaptics-legacy-1.10.0-4.el10.x86_64.rpm</code></a></td><td>xorg-x11-drv-synaptics-legacy</td><td><code>1.10.0-4.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">73.0 KiB</td><td>Xorg X11 synaptics input driver</td></tr>
+<tr><td><a href="Packages/xorg-x11-drv-vmware-13.4.0-12.el10.x86_64.rpm"><code>xorg-x11-drv-vmware-13.4.0-12.el10.x86_64.rpm</code></a></td><td>xorg-x11-drv-vmware</td><td><code>13.4.0-12.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">81.6 KiB</td><td>Xorg X11 vmware video driver</td></tr>
+<tr><td><a href="Packages/xorg-x11-drv-wacom-1.2.4-2.el10.x86_64.rpm"><code>xorg-x11-drv-wacom-1.2.4-2.el10.x86_64.rpm</code></a></td><td>xorg-x11-drv-wacom</td><td><code>1.2.4-2.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">321.9 KiB</td><td>Xorg X11 wacom input driver</td></tr>
+<tr><td><a href="Packages/xorg-x11-drv-wacom-serial-support-1.2.4-2.el10.x86_64.rpm"><code>xorg-x11-drv-wacom-serial-support-1.2.4-2.el10.x86_64.rpm</code></a></td><td>xorg-x11-drv-wacom-serial-support</td><td><code>1.2.4-2.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">23.3 KiB</td><td>Files for enabling the wacom_w8001 kernel driver</td></tr>
+<tr><td><a href="Packages/xorg-x11-server-source-21.1.24-1.el10.noarch.rpm"><code>xorg-x11-server-source-21.1.24-1.el10.noarch.rpm</code></a></td><td>xorg-x11-server-source</td><td><code>21.1.24-1.el10</code></td><td>noarch</td><td>Applications &amp; tools</td><td class="size">1.8 MiB</td><td>Xserver source code required to build VNC server (Xvnc)</td></tr>
+<tr><td><a href="Packages/xorg-x11-server-Xephyr-21.1.24-1.el10.x86_64.rpm"><code>xorg-x11-server-Xephyr-21.1.24-1.el10.x86_64.rpm</code></a></td><td>xorg-x11-server-Xephyr</td><td><code>21.1.24-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">977.1 KiB</td><td>A nested server</td></tr>
+<tr><td><a href="Packages/xorg-x11-server-Xnest-21.1.24-1.el10.x86_64.rpm"><code>xorg-x11-server-Xnest-21.1.24-1.el10.x86_64.rpm</code></a></td><td>xorg-x11-server-Xnest</td><td><code>21.1.24-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">627.2 KiB</td><td>A nested server</td></tr>
+<tr><td><a href="Packages/xorg-x11-server-Xorg-21.1.24-1.el10.x86_64.rpm"><code>xorg-x11-server-Xorg-21.1.24-1.el10.x86_64.rpm</code></a></td><td>xorg-x11-server-Xorg</td><td><code>21.1.24-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">1.4 MiB</td><td>Xorg X server</td></tr>
+<tr><td><a href="Packages/xorg-x11-server-Xspice-0.1.6-9.el10.x86_64.rpm"><code>xorg-x11-server-Xspice-0.1.6-9.el10.x86_64.rpm</code></a></td><td>xorg-x11-server-Xspice</td><td><code>0.1.6-9.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">103.1 KiB</td><td>XSpice is an X server that can be accessed by a Spice client</td></tr>
+<tr><td><a href="Packages/xorg-x11-server-Xvfb-21.1.24-1.el10.x86_64.rpm"><code>xorg-x11-server-Xvfb-21.1.24-1.el10.x86_64.rpm</code></a></td><td>xorg-x11-server-Xvfb</td><td><code>21.1.24-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">821.9 KiB</td><td>A X Windows System virtual framebuffer X server</td></tr>
+<tr><td><a href="Packages/xorg-x11-xdm-1.1.17-3.el10.x86_64.rpm"><code>xorg-x11-xdm-1.1.17-3.el10.x86_64.rpm</code></a></td><td>xorg-x11-xdm</td><td><code>1:1.1.17-3.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">173.3 KiB</td><td>X.Org X11 xdm - X Display Manager</td></tr>
+<tr><td><a href="Packages/xrandr-1.5.3-4.el10.x86_64.rpm"><code>xrandr-1.5.3-4.el10.x86_64.rpm</code></a></td><td>xrandr</td><td><code>1.5.3-4.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">46.4 KiB</td><td>Commandline utility to change output properties</td></tr>
+<tr><td><a href="Packages/xrefresh-1.1.0-4.el10.x86_64.rpm"><code>xrefresh-1.1.0-4.el10.x86_64.rpm</code></a></td><td>xrefresh</td><td><code>1.1.0-4.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">24.2 KiB</td><td>Refresh all or part of an X screen</td></tr>
+<tr><td><a href="Packages/xscope-1.4.5-2.el10.x86_64.rpm"><code>xscope-1.4.5-2.el10.x86_64.rpm</code></a></td><td>xscope</td><td><code>1.4.5-2.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">150.4 KiB</td><td>X Window Protocol Viewer</td></tr>
+<tr><td><a href="Packages/xscreensaver-6.15-1.el10.x86_64.rpm"><code>xscreensaver-6.15-1.el10.x86_64.rpm</code></a></td><td>xscreensaver</td><td><code>1:6.15-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">8.2 KiB</td><td>X screen saver and locker</td></tr>
+<tr><td><a href="Packages/xscreensaver-base-6.15-1.el10.x86_64.rpm"><code>xscreensaver-base-6.15-1.el10.x86_64.rpm</code></a></td><td>xscreensaver-base</td><td><code>1:6.15-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">519.5 KiB</td><td>A minimal installation of xscreensaver</td></tr>
+<tr><td><a href="Packages/xscreensaver-extras-6.15-1.el10.x86_64.rpm"><code>xscreensaver-extras-6.15-1.el10.x86_64.rpm</code></a></td><td>xscreensaver-extras</td><td><code>1:6.15-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">2.4 MiB</td><td>An enhanced set of screensavers</td></tr>
+<tr><td><a href="Packages/xscreensaver-extras-gss-6.15-1.el10.x86_64.rpm"><code>xscreensaver-extras-gss-6.15-1.el10.x86_64.rpm</code></a></td><td>xscreensaver-extras-gss</td><td><code>1:6.15-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">46.3 KiB</td><td>Desktop files of extras for other screensaver</td></tr>
+<tr><td><a href="Packages/xscreensaver-gl-base-6.15-1.el10.x86_64.rpm"><code>xscreensaver-gl-base-6.15-1.el10.x86_64.rpm</code></a></td><td>xscreensaver-gl-base</td><td><code>1:6.15-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">16.9 KiB</td><td>A base package for screensavers that require OpenGL</td></tr>
+<tr><td><a href="Packages/xscreensaver-gl-extras-6.15-1.el10.x86_64.rpm"><code>xscreensaver-gl-extras-6.15-1.el10.x86_64.rpm</code></a></td><td>xscreensaver-gl-extras</td><td><code>1:6.15-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">65.0 MiB</td><td>An enhanced set of screensavers that require OpenGL</td></tr>
+<tr><td><a href="Packages/xscreensaver-gl-extras-gss-6.15-1.el10.x86_64.rpm"><code>xscreensaver-gl-extras-gss-6.15-1.el10.x86_64.rpm</code></a></td><td>xscreensaver-gl-extras-gss</td><td><code>1:6.15-1.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">61.8 KiB</td><td>Desktop files of gl-extras for other screensaver</td></tr>
+<tr><td><a href="Packages/xset-1.2.5-9.el10.x86_64.rpm"><code>xset-1.2.5-9.el10.x86_64.rpm</code></a></td><td>xset</td><td><code>1.2.5-9.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">27.8 KiB</td><td>User preference utility for X</td></tr>
+<tr><td><a href="Packages/xsetroot-1.1.3-4.el10.x86_64.rpm"><code>xsetroot-1.1.3-4.el10.x86_64.rpm</code></a></td><td>xsetroot</td><td><code>1.1.3-4.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">19.5 KiB</td><td>Root window parameter setting utility for X</td></tr>
+<tr><td><a href="Packages/xstdcmap-1.0.5-6.el10.x86_64.rpm"><code>xstdcmap-1.0.5-6.el10.x86_64.rpm</code></a></td><td>xstdcmap</td><td><code>1.0.5-6.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">24.8 KiB</td><td>Utility to define standard colormap properties</td></tr>
+<tr><td><a href="Packages/xvidtune-1.0.4-4.el10.x86_64.rpm"><code>xvidtune-1.0.4-4.el10.x86_64.rpm</code></a></td><td>xvidtune</td><td><code>1.0.4-4.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">28.9 KiB</td><td>Video mode tuner for Xorg</td></tr>
+<tr><td><a href="Packages/xvinfo-1.1.5-4.el10.x86_64.rpm"><code>xvinfo-1.1.5-4.el10.x86_64.rpm</code></a></td><td>xvinfo</td><td><code>1.1.5-4.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">17.0 KiB</td><td>X video extension query utility</td></tr>
+<tr><td><a href="Packages/xwd-1.0.9-5.el10.x86_64.rpm"><code>xwd-1.0.9-5.el10.x86_64.rpm</code></a></td><td>xwd</td><td><code>1.0.9-5.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">27.2 KiB</td><td>Dump an X window to file</td></tr>
+<tr><td><a href="Packages/xwininfo-1.1.6-4.el10.x86_64.rpm"><code>xwininfo-1.1.6-4.el10.x86_64.rpm</code></a></td><td>xwininfo</td><td><code>1.1.6-4.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">31.9 KiB</td><td>X window info utility</td></tr>
+<tr><td><a href="Packages/xwud-1.0.7-4.el10.x86_64.rpm"><code>xwud-1.0.7-4.el10.x86_64.rpm</code></a></td><td>xwud</td><td><code>1.0.7-4.el10</code></td><td>x86_64</td><td>Applications &amp; tools</td><td class="size">32.1 KiB</td><td>Tool to display an X window image</td></tr>
+<tr><td><a href="Packages/libfm-1.4.1-1.el10.x86_64.rpm"><code>libfm-1.4.1-1.el10.x86_64.rpm</code></a></td><td>libfm</td><td><code>1.4.1-1.el10</code></td><td>x86_64</td><td>Libraries</td><td class="size">460.7 KiB</td><td>GIO-based library for file manager-like programs</td></tr>
+<tr><td><a href="Packages/libfm-gtk-1.4.1-1.el10.x86_64.rpm"><code>libfm-gtk-1.4.1-1.el10.x86_64.rpm</code></a></td><td>libfm-gtk</td><td><code>1.4.1-1.el10</code></td><td>x86_64</td><td>Libraries</td><td class="size">181.8 KiB</td><td>GTK3 file-manager widgets for libfm</td></tr>
+<tr><td><a href="Packages/libfm-gtk-utils-1.4.1-1.el10.x86_64.rpm"><code>libfm-gtk-utils-1.4.1-1.el10.x86_64.rpm</code></a></td><td>libfm-gtk-utils</td><td><code>1.4.1-1.el10</code></td><td>x86_64</td><td>Libraries</td><td class="size">24.0 KiB</td><td>GTK3 utility programs for libfm</td></tr>
+<tr><td><a href="Packages/libFS-1.0.9-9.el10.x86_64.rpm"><code>libFS-1.0.9-9.el10.x86_64.rpm</code></a></td><td>libFS</td><td><code>1.0.9-9.el10</code></td><td>x86_64</td><td>Libraries</td><td class="size">30.7 KiB</td><td>X.Org X11 libFS runtime library</td></tr>
+<tr><td><a href="Packages/libglade2-2.6.4-37.el10.x86_64.rpm"><code>libglade2-2.6.4-37.el10.x86_64.rpm</code></a></td><td>libglade2</td><td><code>2.6.4-37.el10</code></td><td>x86_64</td><td>Libraries</td><td class="size">61.3 KiB</td><td>The libglade library for loading user interfaces</td></tr>
+<tr><td><a href="Packages/libgnomekbd-3.28.1-9.el10.x86_64.rpm"><code>libgnomekbd-3.28.1-9.el10.x86_64.rpm</code></a></td><td>libgnomekbd</td><td><code>3.28.1-9.el10</code></td><td>x86_64</td><td>Libraries</td><td class="size">159.5 KiB</td><td>A keyboard configuration library</td></tr>
+<tr><td><a href="Packages/libxcvt-0.1.2-11.el10.x86_64.rpm"><code>libxcvt-0.1.2-11.el10.x86_64.rpm</code></a></td><td>libxcvt</td><td><code>0.1.2-11.el10</code></td><td>x86_64</td><td>Libraries</td><td class="size">13.5 KiB</td><td>VESA CVT standard timing modelines generator</td></tr>
+<tr><td><a href="Packages/libxdo-3.20211022.1-10.el10.x86_64.rpm"><code>libxdo-3.20211022.1-10.el10.x86_64.rpm</code></a></td><td>libxdo</td><td><code>1:3.20211022.1-10.el10</code></td><td>x86_64</td><td>Libraries</td><td class="size">41.6 KiB</td><td>Keyboard input simulation library</td></tr>
+<tr><td><a href="Packages/libXfont-1.5.4-21.el10.x86_64.rpm"><code>libXfont-1.5.4-21.el10.x86_64.rpm</code></a></td><td>libXfont</td><td><code>1.5.4-21.el10</code></td><td>x86_64</td><td>Libraries</td><td class="size">149.6 KiB</td><td>X.Org X11 libXfont runtime library</td></tr>
+<tr><td><a href="Packages/libxkbcommon-1.13.1-2.el10.x86_64.rpm"><code>libxkbcommon-1.13.1-2.el10.x86_64.rpm</code></a></td><td>libxkbcommon</td><td><code>1.13.1-2.el10</code></td><td>x86_64</td><td>Libraries</td><td class="size">179.5 KiB</td><td>X.Org X11 XKB parsing library</td></tr>
+<tr><td><a href="Packages/libxkbcommon-utils-1.13.1-2.el10.x86_64.rpm"><code>libxkbcommon-utils-1.13.1-2.el10.x86_64.rpm</code></a></td><td>libxkbcommon-utils</td><td><code>1.13.1-2.el10</code></td><td>x86_64</td><td>Libraries</td><td class="size">79.7 KiB</td><td>X.Org X11 XKB parsing utilities</td></tr>
+<tr><td><a href="Packages/libxkbcommon-x11-1.13.1-2.el10.x86_64.rpm"><code>libxkbcommon-x11-1.13.1-2.el10.x86_64.rpm</code></a></td><td>libxkbcommon-x11</td><td><code>1.13.1-2.el10</code></td><td>x86_64</td><td>Libraries</td><td class="size">23.1 KiB</td><td>X.Org X11 XKB keymap creation library</td></tr>
+<tr><td><a href="Packages/libxkbcommon-x11-utils-1.13.1-2.el10.x86_64.rpm"><code>libxkbcommon-x11-utils-1.13.1-2.el10.x86_64.rpm</code></a></td><td>libxkbcommon-x11-utils</td><td><code>1.13.1-2.el10</code></td><td>x86_64</td><td>Libraries</td><td class="size">26.5 KiB</td><td>X.Org X11 XKB parsing utilities</td></tr>
+<tr><td><a href="Packages/libxklavier-5.4-30.el10.x86_64.rpm"><code>libxklavier-5.4-30.el10.x86_64.rpm</code></a></td><td>libxklavier</td><td><code>5.4-30.el10</code></td><td>x86_64</td><td>Libraries</td><td class="size">62.9 KiB</td><td>High-level API for X Keyboard Extension</td></tr>
+<tr><td><a href="Packages/libXpresent-1.0.0-28.el10.x86_64.rpm"><code>libXpresent-1.0.0-28.el10.x86_64.rpm</code></a></td><td>libXpresent</td><td><code>1.0.0-28.el10</code></td><td>x86_64</td><td>Libraries</td><td class="size">17.0 KiB</td><td>A Xlib-compatible API for the Present extension</td></tr>
+<tr><td><a href="Packages/libXvMC-1.0.13-9.el10.x86_64.rpm"><code>libXvMC-1.0.13-9.el10.x86_64.rpm</code></a></td><td>libXvMC</td><td><code>1.0.13-9.el10</code></td><td>x86_64</td><td>Libraries</td><td class="size">22.8 KiB</td><td>X.Org X11 libXvMC runtime library</td></tr>
+<tr><td><a href="Packages/libXxf86misc-1.0.4-20.el10.x86_64.rpm"><code>libXxf86misc-1.0.4-20.el10.x86_64.rpm</code></a></td><td>libXxf86misc</td><td><code>1.0.4-20.el10</code></td><td>x86_64</td><td>Libraries</td><td class="size">20.8 KiB</td><td>X.Org X11 libXxf86misc runtime library</td></tr>
+<tr><td><a href="Packages/dhcp-devel-4.4.3-26.el10.x86_64.rpm"><code>dhcp-devel-4.4.3-26.el10.x86_64.rpm</code></a></td><td>dhcp-devel</td><td><code>12:4.4.3-26.el10</code></td><td>x86_64</td><td>Development</td><td class="size">37.0 KiB</td><td>Development headers and libraries for interfacing to the DHCP server</td></tr>
+<tr><td><a href="Packages/dhcp-libs-static-4.4.3-26.el10.x86_64.rpm"><code>dhcp-libs-static-4.4.3-26.el10.x86_64.rpm</code></a></td><td>dhcp-libs-static</td><td><code>12:4.4.3-26.el10</code></td><td>x86_64</td><td>Development</td><td class="size">217.2 KiB</td><td>Shared libraries used by ISC dhcp client and server</td></tr>
+<tr><td><a href="Packages/gtk-layer-shell-devel-0.10.0-1.el10.x86_64.rpm"><code>gtk-layer-shell-devel-0.10.0-1.el10.x86_64.rpm</code></a></td><td>gtk-layer-shell-devel</td><td><code>0.10.0-1.el10</code></td><td>x86_64</td><td>Development</td><td class="size">16.2 KiB</td><td>Development files for gtk-layer-shell</td></tr>
+<tr><td><a href="Packages/hexchat-devel-2.16.2-1.el10.x86_64.rpm"><code>hexchat-devel-2.16.2-1.el10.x86_64.rpm</code></a></td><td>hexchat-devel</td><td><code>2.16.2-1.el10</code></td><td>x86_64</td><td>Development</td><td class="size">9.5 KiB</td><td>Development files for hexchat</td></tr>
+<tr><td><a href="Packages/libfm-devel-1.4.1-1.el10.x86_64.rpm"><code>libfm-devel-1.4.1-1.el10.x86_64.rpm</code></a></td><td>libfm-devel</td><td><code>1.4.1-1.el10</code></td><td>x86_64</td><td>Development</td><td class="size">56.3 KiB</td><td>Development files for libfm</td></tr>
+<tr><td><a href="Packages/libfm-gtk-devel-1.4.1-1.el10.x86_64.rpm"><code>libfm-gtk-devel-1.4.1-1.el10.x86_64.rpm</code></a></td><td>libfm-gtk-devel</td><td><code>1.4.1-1.el10</code></td><td>x86_64</td><td>Development</td><td class="size">7.7 KiB</td><td>Development files for libfm-gtk</td></tr>
+<tr><td><a href="Packages/libFS-devel-1.0.9-9.el10.x86_64.rpm"><code>libFS-devel-1.0.9-9.el10.x86_64.rpm</code></a></td><td>libFS-devel</td><td><code>1.0.9-9.el10</code></td><td>x86_64</td><td>Development</td><td class="size">12.9 KiB</td><td>X.Org X11 libFS development package</td></tr>
+<tr><td><a href="Packages/libglade2-devel-2.6.4-37.el10.x86_64.rpm"><code>libglade2-devel-2.6.4-37.el10.x86_64.rpm</code></a></td><td>libglade2-devel</td><td><code>2.6.4-37.el10</code></td><td>x86_64</td><td>Development</td><td class="size">39.0 KiB</td><td>The files needed for libglade application development</td></tr>
+<tr><td><a href="Packages/libgnomekbd-devel-3.28.1-9.el10.x86_64.rpm"><code>libgnomekbd-devel-3.28.1-9.el10.x86_64.rpm</code></a></td><td>libgnomekbd-devel</td><td><code>3.28.1-9.el10</code></td><td>x86_64</td><td>Development</td><td class="size">20.0 KiB</td><td>Development files for libgnomekbd</td></tr>
+<tr><td><a href="Packages/libxcvt-devel-0.1.2-11.el10.x86_64.rpm"><code>libxcvt-devel-0.1.2-11.el10.x86_64.rpm</code></a></td><td>libxcvt-devel</td><td><code>0.1.2-11.el10</code></td><td>x86_64</td><td>Development</td><td class="size">10.1 KiB</td><td>Development package</td></tr>
+<tr><td><a href="Packages/libxdo-devel-3.20211022.1-10.el10.x86_64.rpm"><code>libxdo-devel-3.20211022.1-10.el10.x86_64.rpm</code></a></td><td>libxdo-devel</td><td><code>1:3.20211022.1-10.el10</code></td><td>x86_64</td><td>Development</td><td class="size">14.9 KiB</td><td>Development files for libxdo</td></tr>
+<tr><td><a href="Packages/libXfont-devel-1.5.4-21.el10.x86_64.rpm"><code>libXfont-devel-1.5.4-21.el10.x86_64.rpm</code></a></td><td>libXfont-devel</td><td><code>1.5.4-21.el10</code></td><td>x86_64</td><td>Development</td><td class="size">20.2 KiB</td><td>X.Org X11 libXfont development package</td></tr>
+<tr><td><a href="Packages/libxkbcommon-devel-1.13.1-2.el10.x86_64.rpm"><code>libxkbcommon-devel-1.13.1-2.el10.x86_64.rpm</code></a></td><td>libxkbcommon-devel</td><td><code>1.13.1-2.el10</code></td><td>x86_64</td><td>Development</td><td class="size">74.8 KiB</td><td>X.Org X11 XKB parsing development package</td></tr>
+<tr><td><a href="Packages/libxkbcommon-x11-devel-1.13.1-2.el10.x86_64.rpm"><code>libxkbcommon-x11-devel-1.13.1-2.el10.x86_64.rpm</code></a></td><td>libxkbcommon-x11-devel</td><td><code>1.13.1-2.el10</code></td><td>x86_64</td><td>Development</td><td class="size">12.2 KiB</td><td>X.Org X11 XKB keymap creation library</td></tr>
+<tr><td><a href="Packages/libxklavier-devel-5.4-30.el10.x86_64.rpm"><code>libxklavier-devel-5.4-30.el10.x86_64.rpm</code></a></td><td>libxklavier-devel</td><td><code>5.4-30.el10</code></td><td>x86_64</td><td>Development</td><td class="size">35.8 KiB</td><td>Development files for libxklavier</td></tr>
+<tr><td><a href="Packages/libXpresent-devel-1.0.0-28.el10.x86_64.rpm"><code>libXpresent-devel-1.0.0-28.el10.x86_64.rpm</code></a></td><td>libXpresent-devel</td><td><code>1.0.0-28.el10</code></td><td>x86_64</td><td>Development</td><td class="size">11.4 KiB</td><td>Development files for libXpresent</td></tr>
+<tr><td><a href="Packages/libXvMC-devel-1.0.13-9.el10.x86_64.rpm"><code>libXvMC-devel-1.0.13-9.el10.x86_64.rpm</code></a></td><td>libXvMC-devel</td><td><code>1.0.13-9.el10</code></td><td>x86_64</td><td>Development</td><td class="size">20.0 KiB</td><td>X.Org X11 libXvMC development package</td></tr>
+<tr><td><a href="Packages/lightdm-gobject-devel-1.33.1-2.el10.x86_64.rpm"><code>lightdm-gobject-devel-1.33.1-2.el10.x86_64.rpm</code></a></td><td>lightdm-gobject-devel</td><td><code>1.33.1-2.el10</code></td><td>x86_64</td><td>Development</td><td class="size">48.6 KiB</td><td>Development files for lightdm-gobject</td></tr>
+<tr><td><a href="Packages/lightdm-qt5-devel-1.33.1-2.el10.x86_64.rpm"><code>lightdm-qt5-devel-1.33.1-2.el10.x86_64.rpm</code></a></td><td>lightdm-qt5-devel</td><td><code>1.33.1-2.el10</code></td><td>x86_64</td><td>Development</td><td class="size">12.2 KiB</td><td>Development files for lightdm-qt5</td></tr>
+<tr><td><a href="Packages/lightdm-qt6-devel-1.33.1-2.el10.x86_64.rpm"><code>lightdm-qt6-devel-1.33.1-2.el10.x86_64.rpm</code></a></td><td>lightdm-qt6-devel</td><td><code>1.33.1-2.el10</code></td><td>x86_64</td><td>Development</td><td class="size">12.2 KiB</td><td>Development files for lightdm-qt6</td></tr>
+<tr><td><a href="Packages/menu-cache-devel-1.1.1-1.el10.x86_64.rpm"><code>menu-cache-devel-1.1.1-1.el10.x86_64.rpm</code></a></td><td>menu-cache-devel</td><td><code>1.1.1-1.el10</code></td><td>x86_64</td><td>Development</td><td class="size">9.7 KiB</td><td>Development files for menu-cache</td></tr>
+<tr><td><a href="Packages/pcmanfm-devel-1.4.0%5E20251022git09087446-1.el10.x86_64.rpm"><code>pcmanfm-devel-1.4.0^20251022git09087446-1.el10.x86_64.rpm</code></a></td><td>pcmanfm-devel</td><td><code>1.4.0^20251022git09087446-1.el10</code></td><td>x86_64</td><td>Development</td><td class="size">8.2 KiB</td><td>Development files for pcmanfm</td></tr>
+<tr><td><a href="Packages/xapps-devel-3.2.2-3.el10.x86_64.rpm"><code>xapps-devel-3.2.2-3.el10.x86_64.rpm</code></a></td><td>xapps-devel</td><td><code>3.2.2-3.el10</code></td><td>x86_64</td><td>Development</td><td class="size">48.6 KiB</td><td>Development files for xapps</td></tr>
+<tr><td><a href="Packages/xorg-x11-drv-evdev-devel-2.11.0-4.el10.x86_64.rpm"><code>xorg-x11-drv-evdev-devel-2.11.0-4.el10.x86_64.rpm</code></a></td><td>xorg-x11-drv-evdev-devel</td><td><code>2.11.0-4.el10</code></td><td>x86_64</td><td>Development</td><td class="size">10.6 KiB</td><td>Xorg X11 evdev input driver development package.</td></tr>
+<tr><td><a href="Packages/xorg-x11-drv-libinput-devel-1.5.0-4.el10.x86_64.rpm"><code>xorg-x11-drv-libinput-devel-1.5.0-4.el10.x86_64.rpm</code></a></td><td>xorg-x11-drv-libinput-devel</td><td><code>1.5.0-4.el10</code></td><td>x86_64</td><td>Development</td><td class="size">11.2 KiB</td><td>Xorg X11 libinput input driver development package.</td></tr>
+<tr><td><a href="Packages/xorg-x11-drv-synaptics-devel-1.10.0-4.el10.x86_64.rpm"><code>xorg-x11-drv-synaptics-devel-1.10.0-4.el10.x86_64.rpm</code></a></td><td>xorg-x11-drv-synaptics-devel</td><td><code>1.10.0-4.el10</code></td><td>x86_64</td><td>Development</td><td class="size">11.1 KiB</td><td>Xorg X11 synaptics input driver</td></tr>
+<tr><td><a href="Packages/xorg-x11-drv-wacom-devel-1.2.4-2.el10.x86_64.rpm"><code>xorg-x11-drv-wacom-devel-1.2.4-2.el10.x86_64.rpm</code></a></td><td>xorg-x11-drv-wacom-devel</td><td><code>1.2.4-2.el10</code></td><td>x86_64</td><td>Development</td><td class="size">27.3 KiB</td><td>Xorg X11 wacom input driver development package</td></tr>
+<tr><td><a href="Packages/xorg-x11-server-devel-21.1.24-1.el10.x86_64.rpm"><code>xorg-x11-server-devel-21.1.24-1.el10.x86_64.rpm</code></a></td><td>xorg-x11-server-devel</td><td><code>21.1.24-1.el10</code></td><td>x86_64</td><td>Development</td><td class="size">213.3 KiB</td><td>SDK for X server driver module development</td></tr>
+<tr><td><a href="Packages/cinnamon-themes-2.3.8-1.el10.noarch.rpm"><code>cinnamon-themes-2.3.8-1.el10.noarch.rpm</code></a></td><td>cinnamon-themes</td><td><code>1:2.3.8-1.el10</code></td><td>noarch</td><td>Data &amp; assets</td><td class="size">738.8 KiB</td><td>Mint themes for GTK3</td></tr>
+<tr><td><a href="Packages/dhcp-common-4.4.3-26.el10.noarch.rpm"><code>dhcp-common-4.4.3-26.el10.noarch.rpm</code></a></td><td>dhcp-common</td><td><code>12:4.4.3-26.el10</code></td><td>noarch</td><td>Data &amp; assets</td><td class="size">126.7 KiB</td><td>Common files used by ISC dhcp client, server and relay agent</td></tr>
+<tr><td><a href="Packages/mint-themes-2.3.8-1.el10.noarch.rpm"><code>mint-themes-2.3.8-1.el10.noarch.rpm</code></a></td><td>mint-themes</td><td><code>1:2.3.8-1.el10</code></td><td>noarch</td><td>Data &amp; assets</td><td class="size">389.1 KiB</td><td>Mint themes</td></tr>
+<tr><td><a href="Packages/mint-y-theme-2.3.8-1.el10.noarch.rpm"><code>mint-y-theme-2.3.8-1.el10.noarch.rpm</code></a></td><td>mint-y-theme</td><td><code>1:2.3.8-1.el10</code></td><td>noarch</td><td>Data &amp; assets</td><td class="size">804.5 KiB</td><td>The Mint-Y theme</td></tr>
+<tr><td><a href="Packages/xorg-x11-server-common-21.1.24-1.el10.x86_64.rpm"><code>xorg-x11-server-common-21.1.24-1.el10.x86_64.rpm</code></a></td><td>xorg-x11-server-common</td><td><code>21.1.24-1.el10</code></td><td>x86_64</td><td>Data &amp; assets</td><td class="size">35.9 KiB</td><td>Xorg server common files</td></tr>
+<tr><td><a href="Packages/dhcp-devel-doc-4.4.3-26.el10.noarch.rpm"><code>dhcp-devel-doc-4.4.3-26.el10.noarch.rpm</code></a></td><td>dhcp-devel-doc</td><td><code>12:4.4.3-26.el10</code></td><td>noarch</td><td>Documentation</td><td class="size">2.9 MiB</td><td>Developer&#x27;s Guide for ISC DHCP</td></tr></tbody>
+          </table>
+        </div>
+        
+    <footer>Generated automatically from the published repository snapshot.</footer>
+    
+
+<script>
+(() => {
+  async function copyText(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+      return;
+    }
+
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.setAttribute("readonly", "");
+    textarea.style.position = "fixed";
+    textarea.style.opacity = "0";
+    textarea.style.pointerEvents = "none";
+    document.body.appendChild(textarea);
+    textarea.select();
+    const copied = document.execCommand("copy");
+    textarea.remove();
+    if (!copied) {
+      throw new Error("copy command failed");
+    }
+  }
+
+  document.addEventListener("click", async (event) => {
+    const target = event.target instanceof Element ? event.target : null;
+    const button = target ? target.closest(".copy-button") : null;
+    if (!button) {
+      return;
+    }
+
+    const block = button.closest(".command-block");
+    const code = block ? block.querySelector("code") : null;
+    if (!code) {
+      return;
+    }
+
+    const accessibleLabel = button.querySelector(".sr-only");
+    try {
+      await copyText(code.innerText);
+      button.classList.remove("copy-failed");
+      button.classList.add("copied");
+      button.setAttribute("aria-label", "Copied install commands");
+      button.setAttribute("title", "Copied");
+      if (accessibleLabel) {
+        accessibleLabel.textContent = "Copied install commands";
+      }
+      window.setTimeout(() => {
+        button.classList.remove("copied");
+        button.setAttribute("aria-label", "Copy install commands");
+        button.setAttribute("title", "Copy install commands");
+        if (accessibleLabel) {
+          accessibleLabel.textContent = "Copy install commands";
+        }
+      }, 1600);
+    } catch (_error) {
+      button.classList.remove("copied");
+      button.classList.add("copy-failed");
+      button.setAttribute("aria-label", "Unable to copy install commands");
+      button.setAttribute("title", "Copy failed");
+      if (accessibleLabel) {
+        accessibleLabel.textContent = "Unable to copy install commands";
+      }
+      window.setTimeout(() => {
+        button.classList.remove("copy-failed");
+        button.setAttribute("aria-label", "Copy install commands");
+        button.setAttribute("title", "Copy install commands");
+        if (accessibleLabel) {
+          accessibleLabel.textContent = "Copy install commands";
+        }
+      }, 2000);
+    }
+  });
+})();
+</script>
+
+
+<script>
+(() => {
+  const collator = new Intl.Collator(undefined, {
+    numeric: true,
+    sensitivity: "base",
+  });
+
+  for (const table of document.querySelectorAll("table.directory-listing")) {
+    const body = table.tBodies[0];
+    if (!body) {
+      continue;
+    }
+
+    let activeKey = table.dataset.sortKey || "name";
+    let activeDirection = table.dataset.sortDirection || "asc";
+    const buttons = Array.from(table.querySelectorAll("button.sort-button"));
+
+    function updateHeaders() {
+      for (const button of buttons) {
+        const header = button.closest("th");
+        const indicator = button.querySelector(".sort-indicator");
+        const isActive = button.dataset.sortKey === activeKey;
+        if (header) {
+          header.setAttribute(
+            "aria-sort",
+            isActive
+              ? (activeDirection === "asc" ? "ascending" : "descending")
+              : "none",
+          );
+        }
+        if (indicator) {
+          indicator.textContent = isActive
+            ? (activeDirection === "asc" ? "▲" : "▼")
+            : "";
+        }
+      }
+    }
+
+    function compareRows(left, right) {
+      // Keep directories ahead of ordinary files regardless of direction.
+      const kindDifference = Number(left.dataset.sortKind) - Number(right.dataset.sortKind);
+      if (kindDifference !== 0) {
+        return kindDifference;
+      }
+
+      let comparison = 0;
+      if (activeKey === "name") {
+        comparison = collator.compare(left.dataset.sortName || "", right.dataset.sortName || "");
+      } else {
+        const leftValue = Number(left.dataset[`sort${activeKey[0].toUpperCase()}${activeKey.slice(1)}`]);
+        const rightValue = Number(right.dataset[`sort${activeKey[0].toUpperCase()}${activeKey.slice(1)}`]);
+        comparison = leftValue - rightValue;
+      }
+
+      if (comparison === 0) {
+        comparison = collator.compare(left.dataset.sortName || "", right.dataset.sortName || "");
+      }
+      return activeDirection === "asc" ? comparison : -comparison;
+    }
+
+    function sortRows() {
+      const rows = Array.from(body.rows);
+      rows.sort(compareRows);
+      for (const row of rows) {
+        body.appendChild(row);
+      }
+      table.dataset.sortKey = activeKey;
+      table.dataset.sortDirection = activeDirection;
+      updateHeaders();
+    }
+
+    for (const button of buttons) {
+      button.addEventListener("click", () => {
+        const requestedKey = button.dataset.sortKey;
+        if (!requestedKey) {
+          return;
+        }
+        if (requestedKey === activeKey) {
+          activeDirection = activeDirection === "asc" ? "desc" : "asc";
+        } else {
+          activeKey = requestedKey;
+          activeDirection = "asc";
+        }
+        sortRows();
+      });
+    }
+
+    updateHeaders();
+  }
+})();
+</script>
+
+</body>
+</html>
